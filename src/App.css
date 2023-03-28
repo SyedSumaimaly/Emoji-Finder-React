@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: gray;
+}
+
+.head{
+  width: 100%;
+}
+
+.head>h2{
+  text-align: center;
+  font-family: 'Alkatra', cursive;
+  font-size: 40px;
+  color: rgb(209, 165, 44);
+}
+
+.main_div {
+  width: 100%;
+  background-color: gray;
+  padding-top: 5px !important;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  /* background-color: aqua;   */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  /* margin-top: 2%; */
+  justify-content: space-between;
+}
+
+.serInput {
+  width: 100%;
+  padding: 8px 25px;
+  border-radius: 20px;
+}
+
+.cards_main {
+  margin-top: 1%;
+  width: 100%;
+  display: inherit;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+}
+
+.cards {
+  border: 1px solid black;
+  width: 30%;
+  margin-top: 5%;
+  justify-content: center;
+  padding: 1%;
+  box-shadow: 4px 4px 15px 2px rgb(194, 194, 194);
+}
+
+.character{
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10%;
+}
+
+.description{
+  border-bottom: 1px solid black;
+  padding-bottom: 1%;
+  font-size: 15px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.description_second{
+  font-size: 15px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
+@media screen and (max-width: 428px) {
+  .description{
+    font-size: 10px;
+    
+  }
+  
+  .description_second{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 288px) {
+  .description{
+    font-size: 8px;
+  }
+  
+  .description_second{
+    font-size: 8px;
+  }
+
+  .cards {
+    width: 40%;
+  }
+}
